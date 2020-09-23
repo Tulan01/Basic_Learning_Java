@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
 public class StringMethod {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         String name,con;
         int compare;
         String name1="aain";
