@@ -21,6 +21,13 @@ public class StringMethod {
         int length = name.length();//return the length of strings
         String upper= name.toUpperCase();//convert to upper case
         String lower= name.toLowerCase();//convert to lower case 
+        String replc = name.replace('n','m'); // replace the n with m 
+        String[] splt = name.split(" ");//it split the whole sentence when found space 
+        
+        
+        for(String x :splt ){
+            System.out.println("Split value ="+x);
+        }
         
         System.out.println("The character ="+n);        
         System.out.println("Compare ="+compare);
@@ -30,5 +37,6 @@ public class StringMethod {
         System.out.println("Length ="+length);
         System.out.println("Upper Case ="+upper);
         System.out.println("Lower Case ="+lower);
+        System.out.println("Replece value ="+replc);
     }
 }

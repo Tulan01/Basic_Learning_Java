@@ -6,13 +6,14 @@ import java.util.Scanner;
 
 public class SwitchCase {
     public static void main(String[] args) {
-         char number;
+        // the program is about to find the inputted charater is vowel or consonent 
+         char number; // take the  user input
         Scanner input = new Scanner(System.in);
         System.out.print("Input a Number ");
-        number = input.next().charAt(0);
+        number = input.next().charAt(0);// this charAt method is if user input word then it only take the first latter 
         
-        switch(number){
-            case 'a' :
+        switch(number){  //in switch we consider the conditon inputet latter 
+            case 'a' :   // if the latter is a then it print vowel then break the switch condition case 
                 System.out.println("Vowel");
                  break;
             case 'e' :
@@ -43,7 +44,7 @@ public class SwitchCase {
                 System.out.println("Vowel");
                 break;
             default :
-                System.out.println("Consonent");
+                System.out.println("Consonent"); // if the latter is not matched with the condition applied before will print this section 
                 break;
         }   
     }
